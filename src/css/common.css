@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar style code */
+#header{
+    background-color:#998e8e;
+}
+.logo a img{
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+}
+.user-actions{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.user-actions a {
+    color: black;
+    margin-right: 40px;
+    text-decoration: none;
+
+}
+.user-actions .logout-btn{
+    margin-left: 40px;
+    cursor: pointer;
+}
